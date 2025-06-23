@@ -2,8 +2,8 @@ const rollDiceBtn = document.getElementById("rollDiceBtn")
 const clearDiceBtn = document.getElementById("clearDiceBtn")
 const diceResultText = document.getElementById("diceResultText")
 const dicesImages = document.getElementById("dicesImages")
-const valuesGenerated = []
-const images = []
+let valuesGenerated = []
+let images = []
 
 function rollDice(){
     const numOfDicesInput = document.getElementById("numOfDicesInput").value
@@ -18,9 +18,9 @@ function rollDice(){
         dicesImages.innerHTML = `${images.join("")}`
     }
 }
-
 function clearDice(){
-    
+    valuesGenerated = []
+    images = []
     diceResultText.textContent = ""
     dicesImages.innerHTML = ""
 }
