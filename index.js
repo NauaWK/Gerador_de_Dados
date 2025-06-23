@@ -1,4 +1,5 @@
 const rollDiceBtn = document.getElementById("rollDiceBtn")
+const clearDiceBtn = document.getElementById("clearDiceBtn")
 const diceResultText = document.getElementById("diceResultText")
 const dicesImages = document.getElementById("dicesImages")
 const valuesGenerated = []
@@ -16,4 +17,9 @@ function rollDice(){
         diceResultText.textContent = `Valores gerados: ${valuesGenerated.join(", ")}`
         dicesImages.innerHTML = `${images.join("")}`
     }
+}
+
+function clearDice(){
+    diceResultText.textContent = ""
+    dicesImages.innerHTML = ""
 }
