@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#mainContainer{
+    margin-top: 2%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#rollDiceBtn{
+    border: none;
+    font-size: 1.2rem;
+    background-color: hsl(240, 100%, 60%);
+    color: #fff;
+    padding: 1%;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    margin: 0 1%;
+}
+#rollDiceBtn:hover{
+    background-color: hsl(240, 100%, 65%);
+}
+#rollDiceBtn:active{
+     background-color: hsl(240, 100%, 70%);
+}
+#numOfDicesLabel{
+    font-weight: bold;
+    margin: 0 1%;
+}
+#numOfDicesInput{
+    width: 10%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#diceResultText{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 2%;
+}
+#dicesImages img{
+    width: 10%;
+    margin: 0 0.5%;
+}
