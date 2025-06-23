@@ -1,5 +1,3 @@
 ***Sobre***
 
-Olá, me chamo Nauã Wisniewski da Silva
-
-Seja bem vindo ao meu **portfólio**
+Projeto simples que consiste em um gerador de dados 🎲 aleatórios.
