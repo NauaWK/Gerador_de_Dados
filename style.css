@@ -32,7 +32,6 @@ body{
     padding: 1%;
     border-radius: 0.5vw;
     cursor: pointer;
-    margin: 0 1%;
 }
 #clearDiceBtn:hover{
     background-color: hsl(0, 100%, 65%);
