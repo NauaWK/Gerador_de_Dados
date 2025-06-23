@@ -16,7 +16,7 @@ body{
     padding: 1%;
     border-radius: 0.5vw;
     cursor: pointer;
-    margin: 0 1%;
+    margin-left: 1%;
 }
 #rollDiceBtn:hover{
     background-color: hsl(240, 100%, 65%);
