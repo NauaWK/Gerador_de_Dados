@@ -6,7 +6,7 @@ const valuesGenerated = []
 const images = []
 
 function rollDice(){
-    let numOfDicesInput = document.getElementById("numOfDicesInput").value
+    const numOfDicesInput = document.getElementById("numOfDicesInput").value
     if(numOfDicesInput >= 500){
         alert("Atenção, a partir de 500 dados o navegador começará a ter problemas em renderizar todas as imagens, você foi avisado.")
     }
@@ -20,7 +20,7 @@ function rollDice(){
 }
 
 function clearDice(){
-    numOfDicesInput = 1
+    
     diceResultText.textContent = ""
     dicesImages.innerHTML = ""
 }
