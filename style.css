@@ -35,10 +35,10 @@ body{
     margin: 0 1%;
 }
 #clearDiceBtn:hover{
-    background-color: hsl(0, 100%, 60%);
+    background-color: hsl(0, 100%, 65%);
 }
 #clearDiceBtn:active{
-    background-color: hsl(0, 100%, 60%);
+    background-color: hsl(0, 100%, 70%);
 }
 #numOfDicesLabel{
     font-weight: bold;
